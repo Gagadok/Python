@@ -1,0 +1,9 @@
+USE [Q2]
+GO
+
+DELETE FROM Statement
+DBCC CHECKIDENT ('Statement', RESEED, -1)
+GO
+
+DELETE FROM Date
+GO
